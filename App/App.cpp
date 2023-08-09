@@ -191,9 +191,9 @@ int SGX_CDECL main(int argc, char *argv[])
 
     //train_cifar(CIFAR_CFG_FILE);
     //test_cifar(CIFAR_CFG_FILE);
-    //test_tiny(TINY_CFG);
+    test_tiny(TINY_CFG);
     //train_mnist(MNIST_CFG);
-    test_mnist(MNIST_CFG);
+    //test_mnist(MNIST_CFG);
 
     /*  
     for (int i = 0; i < NUM_THREADS; i++)
